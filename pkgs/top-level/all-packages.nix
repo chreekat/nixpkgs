@@ -19223,6 +19223,8 @@ with pkgs;
 
   crawl = callPackage ../games/crawl { };
 
+  crossfire = callPackage ../games/crossfire { };
+
   crrcsim = callPackage ../games/crrcsim {};
 
   cutemaze = libsForQt5.callPackage ../games/cutemaze {};
